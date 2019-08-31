@@ -1,0 +1,119 @@
+.numb{
+    float: right;
+}
+.nav{
+  display: block;
+}
+button{
+    padding: 12px 30px;
+    border-radius: 8px;
+    background-color: white; 
+  color: rgb(74, 6, 235) !important;
+  border: 2px solid rgb(74, 6, 235);
+}
+.custom-select {
+    position: relative;
+    font-family: Arial;
+  }
+  
+  .custom-select select {
+    display: none; 
+  }
+  
+  .select-selected {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: rgb(36, 35, 35) transparent transparent transparent;
+  }
+  
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent rgb(56, 55, 55) transparent;
+    top: 7px;
+  }
+  
+  .select-items div,.select-selected {
+    color: #161616;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .select-items {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  option{
+color: black!important;
+  }
+  html{
+    background: url(../img/back.jpg) no-repeat center center fixed;
+
+}
+
+.card{
+  box-sizing: border-box!important;
+  border-radius: 8px!important;
+  box-shadow: 0 0 20px #444444!important;
+  background: rgb(255, 255, 255)!important;
+  background: #FFF;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-0%);
+  padding: 20px 30px;
+}
+.par{
+  float: left;
+}
+img{
+  width: 100px;
+  height: 100px;
+}
+.img-circle {
+   border-radius:0 !important; 
+}
+#yourBtn {
+  position: relative;
+  font-family: calibri;
+  width: 150px;
+  padding: 10px;
+
+color: #fff;
+  text-align: center;
+  background-color: rgb(90, 44, 255);
+  cursor: pointer;
+}
+.sub{
+  position: relative;
+  font-family: calibri;
+  width: 150px;
+  padding: 10px;
+  color: #fff !important;
+  text-align: center;
+  background-color: rgb(90, 44, 255);
+  cursor: pointer;
+  
+}

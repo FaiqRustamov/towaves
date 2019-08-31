@@ -1,0 +1,159 @@
+.footer-distributed{
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+
+  padding: 45px 50px;
+  margin-top: 80px;
+}
+
+.footer-distributed .footer-left p{
+  color:  #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+  font-size:18px;
+  font-weight: bold;
+  color:  #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  inherit;
+}
+
+.footer-distributed .footer-right{
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color:  #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-left: 3px;
+}
+
+
+@media (max-width: 600px) {
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-right{
+    text-align: center;
+  }
+
+  .footer-distributed .footer-right{
+    float: none;
+    margin: 0 auto 20px;
+  }
+
+  .footer-distributed .footer-left p.footer-links{
+    line-height: 1.8;
+  }
+}
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+  .display-3 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.1;
+    text-align: center;
+  }
+  .contact{
+  background: url(../img/volunteer-hands.jpeg)   center no-repeat;
+  height: 400px;
+  width: 100%;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+#portfolio-area {
+  width: 85%;
+  padding: 45px 10px 25px 31px;
+
+  margin-top: 30px;
+  margin-bottom: 200px;
+
+  background-color: #fff;
+}
+
+.port-hr {
+  margin-bottom: 40px;
+}
+
+.port-imgs {
+  width: 233px;
+  height: 166px;
+  margin-right: 15px;
+
+  margin-bottom: 15px;
+}
+#connect-with-me-area {
+  width: 100%;
+
+  /* Box-model */
+  padding: 30px 30px 43px;
+
+  /* Positioning */
+  margin-top: 32px;
+
+  /* Visual */
+  background-color: #fff;
+}
+
+.connect-with-me-header {
+  /* Positioning */
+  margin-bottom: 15px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+
+  /* Typography */
+  font-size: 25px;
+  font-weight: bold;
+  color: #4aaaa5;
+}
+
+.connect-with-me-photo {
+  width: 55px;
+
+  /* Box-model */
+  height: 55px;
+}
+.us{
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+}
+.contact-form-wrapper {
+  background-color: #4e4e4e;
+  overflow: hidden;
+  margin: 76px 0;
+  padding: 56px 0 60px;
+}
+.partner{
+display: inline-block;
+
+  height: 200px;
+  width: 400px;
+}
+
